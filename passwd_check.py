@@ -74,4 +74,4 @@ def check_length(myinput):
 USER_INPUT = raw_input('> ')
 myinput=USER_INPUT.split(',')
 for passwd in myinput:
-    if check_chars(passwd, 'upper')and check_chars(passwd, 'lower') and check_chars(passwd, 'digit') and check_special_char(passwd) and check_length(passwd): print passwd
+    if check_chars(passwd, 'upper') and check_chars(passwd, 'lower') and check_chars(passwd, 'digit') and check_special_char(passwd) and check_length(passwd): print passwd
