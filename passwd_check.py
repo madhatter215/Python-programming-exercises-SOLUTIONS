@@ -43,7 +43,7 @@ def check_chars(myinput, casecheck=''):
     elif casecheck=='lower': myrange=(ord('A'), ord('Z'))   #ASCII DEC 65-90
     elif casecheck=='digit': myrange=(ord('0'), ord('9'))   #ASCII DEC 48-57
     else:
-        print 'unsupported parameter to check_lowercase function'; raise SystemExit
+        print 'unsupported parameter to check_chars function'; raise SystemExit
     if (myVerbo>=VERBOSITY.HIGH): print myrange
     x,y=myrange
     for i, j in ((i, j) for i in range(len(myinput)) for j in range(x,y+1)):
