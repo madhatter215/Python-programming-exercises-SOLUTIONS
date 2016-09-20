@@ -19,6 +19,9 @@
 ##ABd1234@1
 ##                              
 ##
+
+##Python 2.7
+##Requires enum-0.4.6 ("pip install enum")
 from enum import Enum
 class VERBOSITY(Enum):
     DEBUG=  5
