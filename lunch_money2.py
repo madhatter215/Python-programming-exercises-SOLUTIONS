@@ -21,4 +21,4 @@ def pairSum2(arr, k):
 
 myarray=[50,50,60,40,90,20,10,80,13,12,10,87,97,3,50,80,20]
 pairSum2(myarray, k=100)
-##Note, even though 80/20 are in the list twice, it only gets printed once because output is a set
+##Note, even though 80/20 are in the list twice, it only gets printed once because output is a set (unordered collection with no duplicates)
