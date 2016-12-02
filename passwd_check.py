@@ -23,9 +23,9 @@
 #ABd1234@1,a F1#,2w3E*,2We3345,sdfGGK$33
 
 
-##################################################
-## Debug Class for Verbose Messages
-##################################################
+#########################################################
+## Debug Class for Verbose Messages (author madhatter215)
+#########################################################
 ##Python 2.7
 ##Requires enum-0.4.6 ("pip install enum")
 from enum import Enum
@@ -40,6 +40,8 @@ class VERBOSITY(Enum):
 
 myVerbo=VERBOSITY.MEDIUM
 print 'VERBOSITY = %s' %myVerbo
+##################################################
+## Start of Program:
 ##################################################
 import re
 value = []
