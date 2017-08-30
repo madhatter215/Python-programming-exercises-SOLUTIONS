@@ -18,4 +18,6 @@
 a = "the quick brown fox fox apple apple apple pear"
 a = a.split()
 b = {x:a.count(x) for x in a}
-print sorted(b)
+print b
+
+#note, the example is not sorted
